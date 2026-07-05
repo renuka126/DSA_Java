@@ -20,7 +20,7 @@ I started this repo as part of my prep for technical interviews and placements. 
 
 ## Why Java
 
-It's the language I'm most comfortable with right now, and I wanted to get genuinely strong in DSA using it before branching into anything else.
+Java's been my go-to language since college, and I've used it enough that I don't have to think about syntax — I can just focus on the logic of the problem instead of fighting the language. It's also the language most companies test candidates in during placement drives here, so it made sense to get really solid in DSA using it before spreading myself across others.
 
 ## Where this is headed
 
