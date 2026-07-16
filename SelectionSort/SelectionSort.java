@@ -4,19 +4,19 @@ public class SelectionSort {
 
     public static void selectionSort(int[] arr) {
         int n = arr.length;
-        int swaps = 0;   // Initialize swap counter
+        int swaps = 0;   
 
         for (int i = 0; i < n - 1; i++) {
             int minIndex = i;
 
-            // Find the minimum element
+            
             for (int j = i + 1; j < n; j++) {
                 if (arr[j] < arr[minIndex]) {
                     minIndex = j;
                 }
             }
 
-            // Swap only if needed
+            
             if (minIndex != i) {
                 int temp = arr[i];
                 arr[i] = arr[minIndex];
