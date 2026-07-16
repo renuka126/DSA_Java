@@ -4,22 +4,28 @@ public class SelectionSort {
 
     public static void selectionSort(int[] arr) {
         int n = arr.length;
+        int swaps = 0;   // Initialize swap counter
 
         for (int i = 0; i < n - 1; i++) {
             int minIndex = i;
 
-         
+            // Find the minimum element
             for (int j = i + 1; j < n; j++) {
                 if (arr[j] < arr[minIndex]) {
                     minIndex = j;
                 }
             }
 
-            
-            int temp = arr[minIndex];
-            arr[minIndex] = arr[i];
-            arr[i] = temp;
+            // Swap only if needed
+            if (minIndex != i) {
+                int temp = arr[i];
+                arr[i] = arr[minIndex];
+                arr[minIndex] = temp;
+                swaps++;
+            }
         }
+
+        System.out.println("Total Swaps: " + swaps);
     }
 
     public static void printArray(int[] arr) {
