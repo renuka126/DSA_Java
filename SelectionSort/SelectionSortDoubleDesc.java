@@ -1,4 +1,4 @@
-package SelectionSort;
+
 
 public class SelectionSortDoubleDesc {
     public static void main(String[] args) {

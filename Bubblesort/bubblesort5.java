@@ -1,4 +1,4 @@
-package Bubblesort;
+
 public class bubblesort5 {
     public static void main(String[] args){
         char[] letter = {'e' , 'a', 'd', 'g', 'b', 'c', 'f'};
