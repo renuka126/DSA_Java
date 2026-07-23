@@ -1,4 +1,16 @@
+
 public class Sort2 {
+    public static void main(String[] args) {
+        int[] arr = {12, 11, 13, 5, 6};
+
+        System.out.println("Before sorting:");
+        for (int num : arr) System.out.print(num + " ");
+
+        insertionSort(arr);
+
+        System.out.println("\nAfter sorting:");
+        for (int num : arr) System.out.print(num + " ");
+    }
     public static void insertionSort(int[] arr) {
         int n = arr.length;
         for (int i = 1; i < n; i++) {
@@ -12,15 +24,5 @@ public class Sort2 {
         }
     }
 
-    public static void main(String[] args) {
-        int[] arr = {12, 11, 13, 5, 6};
-
-        System.out.println("Before sorting:");
-        for (int num : arr) System.out.print(num + " ");
-
-        insertionSort(arr);
-
-        System.out.println("\nAfter sorting:");
-        for (int num : arr) System.out.print(num + " ");
-    }
+    
 }
