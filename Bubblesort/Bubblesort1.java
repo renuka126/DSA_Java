@@ -14,7 +14,6 @@ public class Bubblesort1 {
                 }
             }
         }
-
         System.out.print("Sorted array: ");
         for (int num : my_array) {
             System.out.print(num + " ");
