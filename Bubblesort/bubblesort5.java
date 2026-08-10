@@ -29,7 +29,5 @@ public class bubblesort5 {
         }
 
         System.out.println("Total number of passes: " + passcount);
-
-
     }
 }
