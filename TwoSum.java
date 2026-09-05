@@ -12,6 +12,7 @@ class TwoSum {
         }
         return arr;
     }
+    
 
     public static void main(String[] args) {
         TwoSum sol = new TwoSum();
